@@ -1,26 +1,12 @@
-# access the node application globally using todo command
+# Access the node application globally using todo command
 
 To make this node application access gobally just type "npm link". if your not testing, it is better to comment the exitoverride function and then use npm link
-
-# CoronaSafe Engineering Fellowship Test Problem
-
-Thanks for applying to the CoronaSafe Engineering fellowship!
-
-In this step we want to see how you implement a command-line (CLI) program that lets you manage your todos.
-
-The specification for this problem is written down as tests. Since we haven’t actually implemented anything, the tests are currently failing. You have to solve the problem by implementing the application and getting all the tests to pass.
-
-Here's how it should work when you're done:
-
-[![Todo-CLI](https://res.cloudinary.com/sv-co/image/upload/v1607935139/fullstack-CEF/Todo-CLI/play-video-demo_fp50wp.png)](https://vimeo.com/490621534)
 
 ## Getting started
 
 1. Install Node.js: You need to have npm installed in your computer for this problem. It comes with Node.js and you can get it by installing Node from https://nodejs.org/en/
 
-2. You are expected to write the code in `todo.js` file.
-
-3. Once you are done with the changes you should be able to execute the todo app by running the following commandfrom the terminal.
+2. To execute the todo app by running the following commandfrom the terminal.
 
    **On Windows:**
 
@@ -54,11 +40,11 @@ Here's how it should work when you're done:
    $ ln -s todo.sh todo
    ```
 
-4. Now run `npm test` and you will see all the tests failing. As you fill in each functionality, you can re-run the tests to see them passing one by one.
+4. Now run `npm test` 
 
 ## Specification
 
-1. The app can be run in the console with `./todo`.
+1. The app can be run in the console with `todo`.
 
 2. The app should read from and write to a `todo.txt` text file. Each todo item occupies a single line in this file. Here is an example file that has 2 todo items.
 
